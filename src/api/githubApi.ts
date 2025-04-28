@@ -54,7 +54,5 @@ export const fetchUserRepos = async (username: string, repoCount: number) => {
   };
 };
 
-// export const fetchRepoCommits = async (username: string, repo: string) => {
-//   const res = await api.get(`${BASE_URL}/repos/${username}/${repo}/commits`);
-//   return res.data;
-// };
+
+ 
